@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftMessageBar (4.1.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts (= 3.1.1)
+  - SVProgressHUD
+  - SwiftMessageBar (= 4.1.1)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Charts
+    - SVProgressHUD
+    - SwiftMessageBar
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessageBar: ef2b546d9074ce54e5dfa0e660ba526f2945b6ab
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: ccf0694fe85ce5e1088c4d1f2973191a8accf5a5
+
+COCOAPODS: 1.5.3

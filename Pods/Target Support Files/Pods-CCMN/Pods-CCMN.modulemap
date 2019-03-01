@@ -1,0 +1,6 @@
+framework module Pods_CCMN {
+  umbrella header "Pods-CCMN-umbrella.h"
+
+  export *
+  module * { export * }
+}

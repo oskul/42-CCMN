@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D47" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ActiveUser" representedClassName="ActiveUser" syncable="YES" codeGenerationType="class">
+        <attribute name="currentFloor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="macAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapCoordinate_x" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mapCoordinate_y" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="networkStatus" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ClusterInfo" representedClassName="ClusterInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="buildingName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campusName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="floorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Floor" representedClassName="Floor" syncable="YES" codeGenerationType="class">
+        <attribute name="buildingName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campusName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="floorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalUser" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ClusterInfo" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Floor" positionX="-45" positionY="27" width="128" height="120"/>
+        <element name="ActiveUser" positionX="-54" positionY="45" width="128" height="135"/>
+    </elements>
+</model>
